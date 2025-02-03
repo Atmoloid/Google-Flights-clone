@@ -52,3 +52,12 @@ button {
 .cloud2 { top: 20%; right: 15%; }
 .wind1 { bottom: 20%; left: 15%; }
 .wind2 { bottom: 30%; right: 10%; }
+
+#flights-container{ 
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
