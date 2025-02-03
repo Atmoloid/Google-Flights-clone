@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flight App</title>
+</head>
+<body>
+    <h1>Flight App</h1>
+    <div class="container">
+        <label for="departure">Departure date:</label>
+        <input type="date" id="departure">
+        
+        <label for="return">Return date:</label>
+        <input type="date" id="return">
+        
+        <label for="passengers">Passengers:</label>
+        <input type="number" id="passengers" min="1" value="1">
+        
+        <label for="trip-type">Trip type:</label>
+        <select id="trip-type">
+            <option value="round-trip">round-trip</option>
+            <option value="one-way">one-way</option>
+        </select>
+        
+        <button>Book a flight</button>
+    </div>
+    <svg class="cloud cloud1" viewBox="0 0 100 60">
+        <ellipse cx="50" cy="30" rx="40" ry="20" fill="white" />
+    </svg>
+    <svg class="cloud cloud2" viewBox="0 0 100 60">
+        <ellipse cx="50" cy="30" rx="40" ry="20" fill="white" />
+    </svg>
+    <svg class="wind wind1" viewBox="0 0 80 40">
+        <path d="M10,20 Q30,5 50,20 Q70,35 90,20" stroke="white" fill="none" stroke-width="4" />
+    </svg>
+    <svg class="wind wind2" viewBox="0 0 80 40">
+        <path d="M10,20 Q30,5 50,20 Q70,35 90,20" stroke="white" fill="none" stroke-width="4" />
+    </svg>
+</body>
+<script src="script.jsx"></script>
+</html>

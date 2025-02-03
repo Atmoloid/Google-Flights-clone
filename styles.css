@@ -1,0 +1,54 @@
+body {
+    background-color: #87CEEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+label, select, input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 8px;
+}
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.cloud, .wind {
+    position: absolute;
+    opacity: 0.5;
+}
+.cloud {
+    width: 100px;
+    height: 60px;
+}
+.wind {
+    width: 80px;
+    height: 40px;
+}
+.cloud1 { top: 10%; left: 10%; }
+.cloud2 { top: 20%; right: 15%; }
+.wind1 { bottom: 20%; left: 15%; }
+.wind2 { bottom: 30%; right: 10%; }
